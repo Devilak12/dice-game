@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    background:linear-gradient(0.25turn,#5AD724,#47D5C8);
+}
+#container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    text-align: center;
+    box-shadow: 0 0 45px;
+    height: 600px;
+    width: 80%;
+    font-family: sans-serif;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+}
+
+#heading {
+    padding: 30px;
+    /* height: 100px; */
+    
+}
+.main {
+
+    height: 500px;
+}
+#image {
+    height: 300px;
+}
+#bottom {
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#score {
+    height: 180px;
+    width: 50%;
+    padding: 10px;
+    font-size: 2em;
+}
+#score_p {
+    background-color: #000;
+    color: white;
+    padding: 5%;
+    border-radius: 30px;
+
+}
+#btn {
+    width: 50%;
+    position: relative;
+    
+    /* justify-content: center; */
+}
+#button {
+    border-radius: 15px;
+    position: absolute;
+    color: #7ABFD6  ;
+    background:ghostwhite;
+    top: 30%;
+    right: 25%;
+    /* margin-top: 10%; */
+    padding:3% 5% 3% 5%;
+    font-size: 2em;
+    transition: all;
+}
+#btn button:hover {
+    color: #0090BE ;
+    padding-left: 6%;
+    padding-right: 6%;
+    transition-duration: 0.2s;
+    box-shadow: 0 0 20px;
+    
+}
+#timer {
+    background: radial-gradient(rgba(214,73,80,.5),rgba(214,73,80,.5));
+    height: 55px;
+    width: 55px;
+    padding: 2% 3% 2% 3%;
+    font-size: 3em;
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    box-shadow: 0 0 20px;
+    border-radius: 150px;
+}
