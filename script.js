@@ -22,7 +22,7 @@ let sec=20;
  {
      if(sec<=0)
      {
-         alert("Game End");
+         alert("Game End Score Is="+count);
      }
      else{
          --sec;

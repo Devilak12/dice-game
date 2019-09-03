@@ -16,25 +16,22 @@ body {
     box-shadow: 0 0 45px;
     height: 600px;
     width: 80%;
-    font-family: sans-serif;
-    background: url(example.png) no-repeat top;
-    /* opacity: 0.45; */
+    font-family: 'Courier New', Courier, monospace;
+    background: url(WVcAdaK.jpg) no-repeat top;
     background-size: cover;
-    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
 
 }
 
 #heading {
     padding: 10px;
     font-size: 2em;
-   
-    /* height: 100px; */
     
 }
 #heading h1{
     color: #D01004;
     text-decoration: underline #D01004;
     text-decoration-skip-ink: auto;
+    text-shadow: 0 0 10px;
 }
 .main {
 
@@ -47,50 +44,46 @@ body {
     display: flex;
     box-sizing: border-box;
     overflow: hidden;
-   
+    position: relative;
 }
 #score {
     height: 180px;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     font-size: 2em;
-    background:transparent;
+    border-width: 10px;
+    box-sizing: border-box;
+    
 }
 #score_p {
+    margin-left: 30%;
+    display: block;
     cursor: pointer;
     color: cornflowerblue;
-    padding:5% 7%;
-    box-shadow: 0 0 45px;
-    transition: transform;
-    transition-duration: 0.2s;
+    background-color: #8E1BD5;
+    opacity: 0.60;
+    box-shadow: 0 0 20px;
     border-radius: 30px;
-
-}
-#score_p:hover {
-    transform: scale(1.05);
- 
 }
 #btn {
-    width: 50%;
-    position: relative;
-    
-    /* justify-content: center; */
+    width: 60%;
+   
 }
 #button {
     cursor: pointer;
     border-radius: 15px;
-    position: absolute;
     color: #7ABFD6  ;
     background:transparent;
-    top: 30%;
-    right: 25%;
-    /* margin-top: 10%; */
-    padding:3% 5% 3% 5%;
+    margin-top: 7.5%;
+    padding:2% 5% 2% 5%;
     font-size: 2em;
     transition: all;
+
 }
 #btn button:hover {
     color: #0090BE ;
+    word-spacing: 5px;
+    letter-spacing: 3px;
     padding-left: 6%;
     padding-right: 6%;
     transition-duration: 0.2s;
@@ -108,4 +101,7 @@ body {
     top: 40%;
     box-shadow: 0 0 20px;
     border-radius: 150px;
+}
+#image1 {
+    border-radius: 30px;
 }
