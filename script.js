@@ -1,10 +1,11 @@
 let a,count=0;
 let sec=20;
 
- let b=document.getElementById('button');
+
  let points=document.getElementById('score_p');
  let img=document.getElementById('image1');
- b.addEventListener('click',imgrand);
+    let b=document.getElementById('button');
+    b.addEventListener('click',imgrand);
 
   
  function imgrand()
@@ -22,12 +23,14 @@ let sec=20;
  {
      if(sec<=0)
      {
-         alert("Game End Score Is="+count);
+        b.disabled=true;
+          alert("Game End Score Is="+count);
      }
      else{
          --sec;
          document.getElementById('timer').innerHTML=sec;
      }
+
      setTimeout(function(){timer();},1000);
  }   
 
