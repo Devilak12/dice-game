@@ -14,7 +14,7 @@ body {
     margin-left: 10%;
     text-align: center;
     box-shadow: 0 0 45px;
-    height: 600px;
+    height: 580px;
     width: 80%;
     font-family: 'Courier New', Courier, monospace;
     background: url(WVcAdaK.jpg) no-repeat top;
@@ -74,7 +74,7 @@ body {
     border-radius: 15px;
     color: #7ABFD6  ;
     background:transparent;
-    margin-top: 7.5%;
+    margin-top: 8%;
     padding:2% 5% 2% 5%;
     font-size: 2em;
     transition: all;
