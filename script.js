@@ -10,6 +10,11 @@ let sec=20;
   
  function imgrand()
  {
+    if(sec<=0)
+    {
+       b.disabled=true;
+         alert("Game End Score Is="+count);
+    }
      if(sec==20)
      {
      timer();
@@ -19,7 +24,10 @@ let sec=20;
     img.src='dice-'+a+'.png';
     count=count+a;
     points.innerHTML="Score : "+count;
-    function timer()
+  
+
+ }
+ function timer()
  {
      if(sec<=0)
      {
@@ -32,8 +40,6 @@ let sec=20;
      }
 
      setTimeout(function(){timer();},1000);
- }   
-
- }
+ } 
  
  
